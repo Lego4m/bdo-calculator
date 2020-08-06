@@ -2,11 +2,11 @@
   "name": "bdo-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Lego4m.github.io/bdo-calculator",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -42,6 +42,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "gh-pages": "^3.1.0"
   }
 }
