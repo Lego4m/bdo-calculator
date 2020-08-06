@@ -113,9 +113,13 @@ export default function Main() {
 
         <footer>
           <div>
-            <strong>Total weight</strong>
-            <p>{total} LT</p>
+            <strong>Total weight: </strong>
+            <span>{total} LT</span>
           </div>
+
+          <p>
+            Created by <br /> Leonardo Maron
+          </p>
         </footer>
       </div>
     </div>

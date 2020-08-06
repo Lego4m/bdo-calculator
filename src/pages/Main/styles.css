@@ -1,40 +1,32 @@
 .page-calculator {
   display: flex;
-  height: 100vh;
-
-  padding: 30px;
-
   justify-content: center;
-  align-items: center;
 }
 
 .page-calculator .calculator {
   max-width: 500px;
   width: 100%;
 
+  margin: 32px;
   padding: 40px 32px;
 
-  display: flex;
-
-  align-items: center;
-  flex-direction: column;
-
   border: 1px solid #212121;
+  border-radius: 6px;
 }
 
 .page-calculator .calculator h1 {
   text-align: center;
 
   font-size: 24px;
-  margin-bottom: 32px;
 }
 
 .page-calculator .calculator ul {
-  margin-bottom: 64px;
+  margin-top: 32px;
 }
 
 .page-calculator .calculator ul li {
   display: flex;
+
   align-items: center;
 }
 
@@ -47,28 +39,31 @@
 }
 
 .page-calculator .calculator ul li input {
-  width: 50px;
-
   border: 1px solid #ddd;
   border-radius: 4px;
 
-  margin: 0 16px;
+  margin-left: 16px;
 
   padding: 6px;
 }
 
-.page-calculator .calculator footer div strong {
-  display: block;
-  line-height: 24px;
-
-  text-align: center;
+.page-calculator .calculator ul li strong.total {
+  margin-left: auto;
 }
 
-.page-calculator .calculator footer div p {
-  text-align: center;
+.page-calculator .calculator footer {
+  margin-top: 32px;
 }
 
-@media (max-width: 500px) {
+.page-calculator .calculator footer > p {
+  margin-top: 16px;
+
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+@media (max-width: 565px) {
   .page-calculator .calculator ul li {
     flex-direction: column;
   }
@@ -80,10 +75,14 @@
   }
 
   .page-calculator .calculator ul li input {
-    margin-top: 4px;
+    margin: 0;
+  }
+
+  .page-calculator .calculator ul li strong {
+    line-height: 28px;
   }
 
   .page-calculator .calculator ul li strong.total {
-    margin-top: 4px;
+    margin-left: 0;
   }
 }
